@@ -49,6 +49,7 @@ export const signUp = async (req, res, next) => {
     next(error);
   }
 };
+
 export const signIn = async (req, res, next) => {
   //implement sign in logic
 
@@ -87,6 +88,7 @@ export const signIn = async (req, res, next) => {
     next(error);
   }
 };
+
 export const signOut = async (req, res) => {
   //implement signup logic
 };
