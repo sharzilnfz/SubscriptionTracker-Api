@@ -10,4 +10,8 @@ export const {
   JWT_EXPIRATION,
   ARCJET_KEY,
   ARCJET_ENV,
+  QSTASH_TOKEN,
+  QSTASH_URL,
+  EMAIL_PASSWORD,
+  SERVER_URL,
 } = process.env;
